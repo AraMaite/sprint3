@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assec/imagen/icon.png" type="imagen/x.icon">
+    <link rel="stylesheet" href="/assec/style/style.css">
+    <title>Raffle</title>
+</head>
+    <nav>
+        <img src="/assec/imagen/logo.png" alt="" class="logo" />
+        <ul class="navigation-list">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/assec/page/about.html">Abaout us</a></li>
+          <li><a href="/assec/page/contac.html">Contac</a></li>
+          <li><a href="/assec/page/information.html">Information</a></li>
+          <li><a href="/assec/page/benefitsTips.html">Benefits and Tips</a></li>
+          <li><a href="/assec/page/raffle.html">Raffle</a></li>
+        </ul>
+    </nav>
+<body>
+    <form action="/assec/page/show_data.html" method="get" class="form">
+    
+        <fieldset class="datos-p">
+        <legend >You can collaborate and participate in a raffe for a 1-week trip</legend>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name-usuario">
+        <label for="name">Last Name:</label>
+        <input type="text" id="name" name="last-usuario">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email-usuario">
+        </fieldset>
+        <fieldset class="country">
+            <legend >Chosse Country</legend>
+            <select for="country" id="chosse-country">
+            <option value="">select opcion</option>
+            <option value="Albania">Albania</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Canadá">Canadá</option>
+		    <option value="Catar">Catar</option>
+            <option value="Argentina">Argentina</option>
+            </select>
+            <label for="date">Chosse Date</label>
+            <input type="date" name="date" id="chosse-date">
+        </fieldset>
+        <fieldset calss="cash"><legend>Opcional</legend> 
+            <label for="payment">Cash</label>
+            <input type="checkbox" id="payment" name="Cash" value="cash">
+            <label for="payment">Credit card</label>
+            <input type="checkbox" id="payment"name="Credit-card" value="credit-card">
+            <label for="payment">Debit Card</label>
+            <input type="checkbox" id="payment" name="Debit-card" value="debit-card">
+        </fieldset>
+        <fieldset class="mej">
+            <label for="mensaje">Message(opcional):</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <input type="submit" value="send">  
+        </fieldset>
+
+        <iframe class="map-toron" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369104.47929447994!2d-79.70772125000713!3d43.718263858182034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses!2sar!4v1687523003718!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </form>
+</body>
+</html>
